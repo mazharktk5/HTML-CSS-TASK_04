@@ -18,7 +18,8 @@ nav{
     align-items: center;
     justify-content: space-evenly;
     margin-bottom: 10px;
-    background: rgb(174, 172, 169);
+    background: rgb(174, 172, 169)
+    
     
     
 }
@@ -31,6 +32,7 @@ nav a{
     position: sticky;
     top: 0;
     color:white ;
+    padding: 20px;
     
 }
 
@@ -85,4 +87,160 @@ section p{
 section span{
     margin-right: 10px;
     color: rgba(206, 143, 7, 0.8);
+}
+
+
+
+/* responsive code */
+@media (max-width: 480px) {
+    nav {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    nav a {
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+
+    .home {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .home div h1 {
+        font-size: 30px;
+    }
+
+    .home img {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .home input {
+        width: 100%;
+    }
+
+    section {
+        padding: 10px;
+    }
+
+    section p {
+        padding-top: 10px;
+    }
+}
+
+
+
+@media (min-width: 481px) and (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    nav a {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+
+    .home {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .home div h1 {
+        font-size: 40px;
+    }
+
+    .home img {
+        width: 80%;
+        margin-left: 0;
+    }
+
+    .home input {
+        width: 80%;
+    }
+
+    section {
+        padding: 20px;
+    }
+
+    section p {
+        padding-top: 15px;
+    }
+}
+
+
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    nav {
+        justify-content: space-around;
+    }
+
+    nav a {
+        font-size: 30px;
+    }
+
+    .home {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .home div h1 {
+        font-size: 45px;
+    }
+
+    .home img {
+        width: 70%;
+        margin-left: 10px;
+    }
+
+    .home input {
+        width: 70%;
+    }
+
+    section {
+        padding: 25px;
+    }
+
+    section p {
+        padding-top: 15px;
+    }
+}
+
+
+@media (min-width: 1025px) {
+    nav {
+        justify-content: space-evenly;
+    }
+
+    nav a {
+        font-size: 35px;
+    }
+
+    .home {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .home div h1 {
+        font-size: 50px;
+    }
+
+    .home img {
+        width: 300px;
+        margin-left: 20px;
+    }
+
+    .home input {
+        width: 300px;
+    }
+
+    section {
+        padding: 30px;
+    }
+
+    section p {
+        padding-top: 20px;
+    }
 }
