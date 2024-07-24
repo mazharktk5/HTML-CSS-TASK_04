@@ -9,7 +9,7 @@ figure{
 }
 
 figure img{
-    width: 300px;
+    width: 200px;
     margin-top: -20px;
 }
 
@@ -18,7 +18,8 @@ nav{
     align-items: center;
     justify-content: space-evenly;
     margin-bottom: 10px;
-
+    background: rgb(174, 172, 169);
+    
     
 }
 
@@ -29,6 +30,7 @@ nav a{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     position: sticky;
     top: 0;
+    color:white ;
     
 }
 
@@ -67,3 +69,20 @@ nav a:hover{
     border-radius: 10px;
 }
 
+
+/* section */
+
+section{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+section p{
+    padding-top: 20px;
+}
+
+section span{
+    margin-right: 10px;
+    color: rgba(206, 143, 7, 0.8);
+}
